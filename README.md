@@ -37,3 +37,6 @@ yarn start
 ```shell
 npm start
 ```
+
+api method post
+/upload
