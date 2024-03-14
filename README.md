@@ -39,4 +39,8 @@ npm start
 ```
 
 api method post
+
+- api method post
+```shell
 /upload
+```
