@@ -5,7 +5,7 @@
 1. Clone the repository
 
 ```shell
-git clone https://github.com/SivaramPg/pdf-qr-code-extractor.git
+git clone https://github.com/dimmas893/barcode-pdf-scanner
 ```
 
 2. Install the dependencies
