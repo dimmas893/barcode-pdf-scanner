@@ -6,10 +6,11 @@ import('node-fetch').then(({ default: fetch }) => {
   const multer = require('multer');
   const { body, validationResult } = require('express-validator');
   const xml2js = require('xml2js');
-  
+  const cors = require('cors');
+
   const app = express();
   const port = 3000;
-  
+  app.use(cors());
   // Multer setup to handle file uploads
   const upload = multer({ dest: 'uploads/' });
   
